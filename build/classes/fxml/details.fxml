@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="container" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="booklistmanager.DetailsController">
+   <children>
+      <Label alignment="CENTER" text="Details" textFill="#170ce1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameshower" />
+      <Label fx:id="forshower" text="Label" />
+      <Label fx:id="authorshower" text="Label" />
+      <Label fx:id="publishshower" text="Label" />
+      <Label fx:id="editionshower" text="Label" />
+      <HBox alignment="CENTER" prefHeight="188.0" prefWidth="700.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#done" prefHeight="25.0" prefWidth="57.0" text="OK" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets top="20.0" />
+   </padding>
+</VBox>
